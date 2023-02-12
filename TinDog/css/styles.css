@@ -1,0 +1,169 @@
+body {
+    font-family: 'Ubuntu';
+    text-align: center;  
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Ubuntu";
+    font-weight: bolder;
+}
+
+p {
+    color: darkgray;
+}
+
+.lg-header {
+    font-size: 4rem;
+    line-height: 1.5;  
+}
+
+.md-header {
+    font-size: 3rem;
+}
+
+.sm-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.lt-bg {
+    background-color: #fff;
+}
+
+.md-bg {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.dk-bg {
+    background-color: #ff4c68;
+    color: #fff
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/* Navbar Section */
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 20px;
+    font-size: 1.3rem;
+}
+
+/* Title Section */
+
+#title {
+    text-align: left;
+}
+
+#phone-img {
+    width: 20%;
+    right: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+@media (max-width: 1028px) {
+    #phone-img {
+        position: static;
+        width: 60%;
+        transform: rotate(0deg);
+    }
+
+    .title {
+        text-align: center;
+    }
+}
+
+/* Features Section */
+
+#features  {
+    font-family: "Montserrat";
+    position: relative;
+    z-index: 1;
+}
+
+.feats {
+    padding: 5%;
+}
+
+.icons {
+    color: #ef8172;
+    padding-bottom: 20px;
+}
+
+.icons:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+.test-img {
+    width: 10%;
+    padding: 5% 0%;
+    border-radius: 100%;
+}
+
+/* Press Section */
+
+.press-img {
+    width: 15%;
+    margin: 0% 3%;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding-top: 5%;
+}
+
+.price-header {
+    padding-bottom: 5%;
+}
+
+.price-title {
+    padding-bottom: 3%;
+}
+
+.card {
+    margin: 7% 3%;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-header {
+    font-family: "Montserrat";
+    background-color: lightcyan;
+}
+
+.card-subtitle {
+    margin: 5% 0%;
+    font-size: 2.5rem;
+}
+
+.sign-up-btn {
+    padding: 0 30%;
+    margin-bottom: 5%;
+}
+
+/* Call to Action */
+
+.socials {
+    margin: 2% 1%;
+}
